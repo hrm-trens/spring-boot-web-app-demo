@@ -21,7 +21,7 @@ public class MovieController {
 
 	@GetMapping("/message")
 	public String welcomeMessage() {
-		return "Welcome to movies web app!";
+		return "Welcome to movies demo web application!";
 	}
 
 // save moviesinfo to db
